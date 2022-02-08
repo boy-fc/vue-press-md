@@ -1,6 +1,6 @@
 // 注意: base的值为github仓库的名称
 module.exports = {
-  base: '/boy-fc/', /* 基础虚拟路径: */
+  base: '/vue-press-md/', /* 基础虚拟路径: */
   dest: 'docs/dist', /* 打包文件基础路径, 在命令所在目录下 */
   title: 'OrangeWind', // 标题
   description: '学习 复习 面试', // 标题下的描述
