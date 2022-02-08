@@ -1,0 +1,32 @@
+{
+  "name": "vuepress-md",
+  "version": "1.0.0",
+  "description": "vue-pree-md",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "doc:deploy": "gh-pages -d docs/dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boy-fc/vue-press-md.git"
+  },
+  "keywords": [
+    "markdown",
+    "vue",
+    "js",
+    "html"
+  ],
+  "author": "orangewind",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boy-fc/vue-press-md/issues"
+  },
+  "homepage": "https://github.com/boy-fc/vue-press-md#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "vuepress": "^1.9.7"
+  }
+}
