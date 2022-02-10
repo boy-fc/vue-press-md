@@ -1,3 +1,12 @@
+---
+title: 2_Composition API
+date: 2022-02-08 22:54:15
+permalink: /pages/835280/
+categories:
+  - 0
+tags:
+  - 
+---
 ### Composition API
 
 #### setup

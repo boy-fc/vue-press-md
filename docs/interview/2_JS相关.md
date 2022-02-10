@@ -1,3 +1,12 @@
+---
+title: 2_JS相关
+date: 2022-02-08 21:24:09
+permalink: /pages/3e0807/
+categories:
+  - interview
+tags:
+  - 
+---
 #### JS相关
 
 #### js数据类型、typeof、instanceof、类型转换

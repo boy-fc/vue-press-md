@@ -27,6 +27,7 @@
   "homepage": "https://github.com/boy-fc/vue-press-md#readme",
   "devDependencies": {
     "gh-pages": "^3.2.3",
-    "vuepress": "^1.9.7"
+    "vuepress": "^1.9.7",
+    "vuepress-theme-vdoing": "^1.9.4"
   }
 }

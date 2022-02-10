@@ -3,6 +3,7 @@ module.exports = {
   base: '/vue-press-md/', /* 基础虚拟路径: */
   dest: 'docs/dist', /* 打包文件基础路径, 在命令所在目录下 */
   title: 'OrangeWind', // 标题
+  // theme: 'vdoing',
   description: '学习 复习 面试', // 标题下的描述
   themeConfig: { // 主题配置
     sidebar: [ // 左侧导航

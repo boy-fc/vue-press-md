@@ -1,3 +1,12 @@
+---
+title: 3_Vue2
+date: 2022-02-08 21:24:09
+permalink: /pages/04db0e/
+categories:
+  - interview
+tags:
+  - 
+---
 ### Vue2
 
 #### 简述MVVM

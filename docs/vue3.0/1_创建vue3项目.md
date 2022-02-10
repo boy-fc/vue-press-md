@@ -1,3 +1,12 @@
+---
+title: 1_创建vue3项目
+date: 2022-02-08 22:51:54
+permalink: /pages/b9888e/
+categories:
+  - 0
+tags:
+  - 
+---
 ### 创建vue3项目
 
 #### vue-cli创建
