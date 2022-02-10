@@ -25,7 +25,7 @@ module.exports = {
         children: [ // 下级列表
           'vue3.0/1_创建vue3项目',
           'vue3.0/2_Composition API',
-          'vue3.0/3_Composition API(其它)',
+          'vue3.0/3_Composition API其它',
           'vue3.0/4_手写组合API',
           'vue3.0/5_新组件',
         ]
@@ -40,6 +40,18 @@ module.exports = {
           'interview/4_网络安全、HTTP协议',
           'interview/5_前端工程化',
           'interview/6_前端性能优化',
+        ]
+      },
+      {
+        title: 'interviewHandwriting', // 标题
+        collapsable: false, // 下级列表不可折叠
+        children: [ // 下级列表
+          'interviewHandwriting/1_防抖节流',
+          'interviewHandwriting/2_对象浅拷贝',
+          'interviewHandwriting/3_对象深拷贝',
+          'interviewHandwriting/4_数组去重',
+          'interviewHandwriting/5_对象去重',
+          'interviewHandwriting/6_数组扁平化',
         ]
       },
     ]
