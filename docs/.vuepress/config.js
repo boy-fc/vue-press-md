@@ -32,27 +32,76 @@ module.exports = {
         ]
       },
       {
-        title: 'interview', // 标题
+        title: '面试相关', // 标题
         collapsable: false, // 下级列表不可折叠
         children: [ // 下级列表
-          'interview/1_HTML、CSS相关',
-          'interview/2_JS相关',
-          'interview/3_Vue2',
-          'interview/4_网络安全、HTTP协议',
-          'interview/5_前端工程化',
-          'interview/6_前端性能优化',
+          '面试相关/1_HTML、CSS相关',
+          '面试相关/2_JS相关',
+          '面试相关/3_Vue2',
+          '面试相关/4_网络安全、HTTP协议',
+          '面试相关/5_前端工程化',
+          '面试相关/6_前端性能优化',
         ]
       },
       {
-        title: 'interviewHandwriting', // 标题
+        title: '面试手写系列', // 标题
         collapsable: false, // 下级列表不可折叠
         children: [ // 下级列表
-          'interviewHandwriting/1_防抖节流',
-          'interviewHandwriting/2_对象浅拷贝',
-          'interviewHandwriting/3_对象深拷贝',
-          'interviewHandwriting/4_数组去重',
-          'interviewHandwriting/5_对象去重',
-          'interviewHandwriting/6_数组扁平化',
+          '面试手写系列/1_防抖节流',
+          '面试手写系列/2_对象浅拷贝',
+          '面试手写系列/3_对象深拷贝',
+          '面试手写系列/4_数组去重',
+          '面试手写系列/5_对象去重',
+          '面试手写系列/6_数组扁平化',
+        ]
+      },
+      {
+        title: '面试经典题型', // 标题
+        collapsable: false, // 下级列表不可折叠
+        children: [ // 下级列表
+          '面试经典题型/1_面试经典题型',
+        ]
+      },
+      {
+        title: '面试问题', // 标题
+        collapsable: false, // 下级列表不可折叠
+        children: [ // 下级列表
+          '面试问题/1_面试问题',
+        ]
+      },
+      {
+        title: '前端单元测试', // 标题
+        collapsable: false, // 下级列表不可折叠
+        children: [ // 下级列表
+          '前端单元测试/1_前端单元测试',
+        ]
+      },
+      {
+        title: '力扣算法', // 标题
+        collapsable: false, // 下级列表不可折叠
+        children: [ // 下级列表
+          '力扣算法/1_力扣算法',
+        ]
+      },
+      {
+        title: '补充', // 标题
+        collapsable: false, // 下级列表不可折叠
+        children: [ // 下级列表
+          '补充/1_补充',
+        ]
+      },
+      {
+        title: '抓包工具', // 标题
+        collapsable: false, // 下级列表不可折叠
+        children: [ // 下级列表
+          '抓包工具/1_抓包工具',
+        ]
+      },
+      {
+        title: '通用小工具系列', // 标题
+        collapsable: false, // 下级列表不可折叠
+        children: [ // 下级列表
+          '通用小工具系列/1_通用小工具系列',
         ]
       },
     ]
