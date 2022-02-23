@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>前端单元测试 | OrangeWind</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="学习 复习 面试">
+    
+    <link rel="preload" href="/vue-press-md/assets/css/0.styles.80c6c626.css" as="style"><link rel="preload" href="/vue-press-md/assets/js/app.b27cc345.js" as="script"><link rel="preload" href="/vue-press-md/assets/js/2.ab91b6d3.js" as="script"><link rel="preload" href="/vue-press-md/assets/js/23.607464eb.js" as="script"><link rel="prefetch" href="/vue-press-md/assets/js/10.410fb8f6.js"><link rel="prefetch" href="/vue-press-md/assets/js/11.a512fa58.js"><link rel="prefetch" href="/vue-press-md/assets/js/12.36d14a37.js"><link rel="prefetch" href="/vue-press-md/assets/js/13.b2cf53bb.js"><link rel="prefetch" href="/vue-press-md/assets/js/14.e305c33b.js"><link rel="prefetch" href="/vue-press-md/assets/js/15.78466717.js"><link rel="prefetch" href="/vue-press-md/assets/js/16.62477d3a.js"><link rel="prefetch" href="/vue-press-md/assets/js/17.1c97366e.js"><link rel="prefetch" href="/vue-press-md/assets/js/18.b9034d8c.js"><link rel="prefetch" href="/vue-press-md/assets/js/19.c60b10a8.js"><link rel="prefetch" href="/vue-press-md/assets/js/20.85b8b653.js"><link rel="prefetch" href="/vue-press-md/assets/js/21.2ccb312a.js"><link rel="prefetch" href="/vue-press-md/assets/js/22.296062af.js"><link rel="prefetch" href="/vue-press-md/assets/js/24.aa255b94.js"><link rel="prefetch" href="/vue-press-md/assets/js/25.62cb1bb1.js"><link rel="prefetch" href="/vue-press-md/assets/js/26.0aa72996.js"><link rel="prefetch" href="/vue-press-md/assets/js/27.5effdc96.js"><link rel="prefetch" href="/vue-press-md/assets/js/28.798cbf6a.js"><link rel="prefetch" href="/vue-press-md/assets/js/29.928791fa.js"><link rel="prefetch" href="/vue-press-md/assets/js/3.fb28e9ff.js"><link rel="prefetch" href="/vue-press-md/assets/js/30.260cb155.js"><link rel="prefetch" href="/vue-press-md/assets/js/31.8a1f5c43.js"><link rel="prefetch" href="/vue-press-md/assets/js/32.6e3469d7.js"><link rel="prefetch" href="/vue-press-md/assets/js/33.c1db7a1f.js"><link rel="prefetch" href="/vue-press-md/assets/js/34.f9beb24e.js"><link rel="prefetch" href="/vue-press-md/assets/js/35.ea050dc6.js"><link rel="prefetch" href="/vue-press-md/assets/js/36.b36ff0af.js"><link rel="prefetch" href="/vue-press-md/assets/js/37.83e49789.js"><link rel="prefetch" href="/vue-press-md/assets/js/38.5576d12d.js"><link rel="prefetch" href="/vue-press-md/assets/js/39.187bd986.js"><link rel="prefetch" href="/vue-press-md/assets/js/4.b7d0708f.js"><link rel="prefetch" href="/vue-press-md/assets/js/40.45164e7f.js"><link rel="prefetch" href="/vue-press-md/assets/js/41.d33f50d2.js"><link rel="prefetch" href="/vue-press-md/assets/js/5.9e2f4ca7.js"><link rel="prefetch" href="/vue-press-md/assets/js/6.c7b54f12.js"><link rel="prefetch" href="/vue-press-md/assets/js/7.5dac6305.js"><link rel="prefetch" href="/vue-press-md/assets/js/8.d6793119.js"><link rel="prefetch" href="/vue-press-md/assets/js/9.f3d242f2.js">
+    <link rel="stylesheet" href="/vue-press-md/assets/css/0.styles.80c6c626.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vue-press-md/" class="home-link router-link-active"><!----> <span class="site-name">OrangeWind</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>TypeScript</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-press-md/pages/e7c319/" class="sidebar-link">1_安装</a></li><li><a href="/vue-press-md/pages/6c55ba/" class="sidebar-link">2_基本类型</a></li><li><a href="/vue-press-md/pages/2bc780/" class="sidebar-link">3_接口</a></li><li><a href="/vue-press-md/pages/005633/" class="sidebar-link">4_类</a></li><li><a href="/vue-press-md/pages/5e1100/" class="sidebar-link">5_函数</a></li><li><a href="/vue-press-md/pages/2bf48b/" class="sidebar-link">6_泛型</a></li><li><a href="/vue-press-md/pages/c2333c/" class="sidebar-link">7_其他</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Vue3快速上手</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-press-md/pages/b9888e/" class="sidebar-link">1_创建vue3项目</a></li><li><a href="/vue-press-md/pages/835280/" class="sidebar-link">2_Composition API</a></li><li><a href="/vue-press-md/pages/c4f20f/" class="sidebar-link">3_Composition API其它</a></li><li><a href="/vue-press-md/pages/8aa12e/" class="sidebar-link">4_手写组合API</a></li><li><a href="/vue-press-md/pages/25827d/" class="sidebar-link">5_新组件</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>面试相关</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-press-md/pages/276b03/" class="sidebar-link">1_HTML、CSS相关</a></li><li><a href="/vue-press-md/pages/3e0807/" class="sidebar-link">2_JS相关</a></li><li><a href="/vue-press-md/pages/04db0e/" class="sidebar-link">3_Vue2</a></li><li><a href="/vue-press-md/pages/0ae77b/" class="sidebar-link">4_网络安全、HTTP协议</a></li><li><a href="/vue-press-md/pages/7d684d/" class="sidebar-link">5_前端工程化</a></li><li><a href="/vue-press-md/pages/32929a/" class="sidebar-link">6_前端性能优化</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>面试手写系列</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-press-md/pages/169a00/" class="sidebar-link">1_防抖节流</a></li><li><a href="/vue-press-md/pages/94a8b1/" class="sidebar-link">2_对象浅拷贝</a></li><li><a href="/vue-press-md/pages/6ed30a/" class="sidebar-link">3_对象深拷贝</a></li><li><a href="/vue-press-md/pages/b3288c/" class="sidebar-link">4_数组去重</a></li><li><a href="/vue-press-md/pages/ec5aa8/" class="sidebar-link">5_对象去重</a></li><li><a href="/vue-press-md/pages/b46fd9/" class="sidebar-link">6_数组扁平化</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>面试经典题型</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-press-md/面试经典题型/1_面试经典题型.html" class="sidebar-link">闭包、作用域等</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>面试问题</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-press-md/面试问题/1_面试问题.html" class="sidebar-link">面试问题汇总</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>前端单元测试</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-press-md/前端单元测试/1_前端单元测试.html" class="active sidebar-link">前端单元测试</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>力扣算法</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-press-md/力扣算法/1_力扣算法.html" class="sidebar-link">力扣算法</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>补充</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-press-md/补充/1_补充.html" class="sidebar-link">补充</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>抓包工具</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-press-md/抓包工具/1_抓包工具.html" class="sidebar-link">抓包工具</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>通用小工具系列</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-press-md/通用小工具系列/1_通用小工具系列.html" class="sidebar-link">通用小工具系列</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="前端单元测试"><a href="#前端单元测试" class="header-anchor">#</a> 前端单元测试</h3> <h4 id="为什么需要单元测试"><a href="#为什么需要单元测试" class="header-anchor">#</a> 为什么需要单元测试？</h4> <ol><li>必要性：JavaScript 缺少类型检查，编译期间无法定位到错误，单元测试可以帮助你测试多种异常情况。</li> <li>正确性：测试可以验证代码的正确性，在上线前做到心里有底。</li> <li>自动化：通过 console 虽然可以打印出内部信息，但是这是一次性的事情，下次测试还需要从头来过，效率不能得到保证。通过编写测试用例，可以做到一次编写，多次运行。</li> <li>保证重构：互联网行业产品迭代速度很快，迭代后必然存在代码重构的过程，那怎么才能保证重构后代码的质量呢？有测试用例做后盾，就可以大胆的进行重构。</li></ol> <h4 id="常见单元测试工具"><a href="#常见单元测试工具" class="header-anchor">#</a> 常见单元测试工具</h4> <p>目前用的最多的前端单元测试框架主要有 <a href="https://link.juejin.cn/?target=https%3A%2F%2Fmochajs.cn%2F" target="_blank" rel="noopener noreferrer">Mocha<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>、<a href="https://link.juejin.cn/?target=https%3A%2F%2Fwww.jestjs.cn%2F" target="_blank" rel="noopener noreferrer">Jest<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>，但我推荐你使用 Jest, 因为 Jest 和 Mocha 相比，无论从 github starts &amp; issues 量，npm下载量相比，都有明显优势。</p> <h5 id="框架对比"><a href="#框架对比" class="header-anchor">#</a> 框架对比</h5> <table><thead><tr><th>框架</th> <th>断言</th> <th>异步</th> <th>代码覆盖率</th></tr></thead> <tbody><tr><td>Mocha</td> <td>不支持（需要其他库支持）</td> <td>友好</td> <td>不支持（需要其他库支持）</td></tr> <tr><td>Jest</td> <td>默认支持</td> <td>友好</td> <td>支持</td></tr></tbody></table> <ul><li><p>Mocha 生态好，但是需要较多的配置来实现高扩展性</p></li> <li><p>Jest 开箱即用</p> <p><strong>比如对 sum 函数写用例</strong></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">.</span><span class="token operator">/</span>sum<span class="token punctuation">.</span>js
+<span class="token keyword">function</span> <span class="token function">sum</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> a <span class="token operator">+</span> b<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> sum<span class="token punctuation">;</span>
+</code></pre></div></li></ul> <h5 id="mocha-chai-方式"><a href="#mocha-chai-方式" class="header-anchor">#</a> <strong>Mocha + Chai 方式</strong></h5> <p>Mocha 需要引入 chai 或则其他断言库去断言, 如果你需要查看覆盖率报告你还需要安装 nyc 或者其他覆盖率工具</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">.</span><span class="token operator">/</span>test<span class="token operator">/</span>sum<span class="token punctuation">.</span>test<span class="token punctuation">.</span>js
+<span class="token keyword">const</span> <span class="token punctuation">{</span> expect<span class="token punctuation">,</span> assert <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'chai'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> sum <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'../sum'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">'sum'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">'adds 1 + 2 to equal 3'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">assert</span><span class="token punctuation">(</span><span class="token function">sum</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">===</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h5 id="jest-方式"><a href="#jest-方式" class="header-anchor">#</a> <strong>Jest 方式</strong></h5> <p>Jest 默认支持断言，同时默认支持覆盖率测试</p> <p><code>./test/sum.test.js</code></p> <div class="language-JS extra-class"><pre class="language-js"><code><span class="token keyword">const</span> sum <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./sum'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">'sum function test'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">'sum(1, 2) === 3'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token function">sum</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  
+  <span class="token comment">// 这里 test 和 it 没有明显区别，it 是指: it should xxx, test 是指 test xxx</span>
+  <span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'sum(1, 2) === 3'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token function">sum</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+</code></pre></div><h4 id="如何开始"><a href="#如何开始" class="header-anchor">#</a> 如何开始？</h4> <h5 id="_1-安装依赖"><a href="#_1-安装依赖" class="header-anchor">#</a> 1.安装依赖</h5> <div class="language-js extra-class"><pre class="language-js"><code>npm install <span class="token operator">--</span>save<span class="token operator">-</span>dev jest
+</code></pre></div><h5 id="_2-简单的例子"><a href="#_2-简单的例子" class="header-anchor">#</a> 2.简单的例子</h5> <p>首先，创建一个 sum.js 文件</p> <p><code>./sum.js</code></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">sum</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> a <span class="token operator">+</span> b<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> sum<span class="token punctuation">;</span>
+
+</code></pre></div><p>创建一个名为 sum.test.js 的文件，这个文件包含了实际测试内容：</p> <p><code>./test/sum.test.js</code></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> sum <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'../sum'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'adds 1 + 2 to equal 3'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token function">expect</span><span class="token punctuation">(</span><span class="token function">sum</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+</code></pre></div><p>将下面的配置部分添加到你的 package.json 里面</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">{</span>
+  <span class="token string-property property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string-property property">&quot;test&quot;</span><span class="token operator">:</span> <span class="token string">&quot;jest&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>运行 npm run test</p> <h5 id="_3-不支持部分-es6-语法"><a href="#_3-不支持部分-es6-语法" class="header-anchor">#</a> 3.不支持部分 ES6 语法</h5> <p>nodejs 采用的是 CommonJS 的模块化规范，使用 require 引入模块；而 import 是 ES6 的模块化规范关键字。想要使用 import，必须引入 babel 转义支持，通过 babel 进行编译，使其变成 node 的模块化代码</p> <p>为了能使用这些新特性，我们就需要使用 babel 把 ES6 转成 ES5 语法</p> <p><strong>解决办法</strong></p> <p>安装依赖</p> <div class="language-js extra-class"><pre class="language-js"><code>npm install <span class="token operator">--</span>save<span class="token operator">-</span>dev @babel<span class="token operator">/</span>core @babel<span class="token operator">/</span>preset<span class="token operator">-</span>env
+</code></pre></div><p>根目录加入.babelrc</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">{</span>   <span class="token string-property property">&quot;presets&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;@babel/preset-env&quot;</span><span class="token punctuation">]</span> <span class="token punctuation">}</span>
+</code></pre></div><p><strong>原理</strong></p> <p>jest 运行时内部先执行(jest-babel), 检测是否安装 babel-core, 然后取 .babelrc 中的配置, 运行测试之前结合 babel 先把测试用例代码转换一遍然后再进行测试</p> <h5 id="_4-测试-ts-文件"><a href="#_4-测试-ts-文件" class="header-anchor">#</a> 4.测试 ts 文件</h5> <p>jest 需要借助 .babelrc 去解析 TypeScript 文件再进行测试</p> <p><strong>安装依赖</strong></p> <div class="language-js extra-class"><pre class="language-js"><code>npm install <span class="token operator">--</span>save<span class="token operator">-</span>dev @babel<span class="token operator">/</span>preset<span class="token operator">-</span>typescript
+</code></pre></div><p>**改写 **.babelrc</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">{</span>   <span class="token string-property property">&quot;presets&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;@babel/preset-env&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;@babel/preset-typescript&quot;</span><span class="token punctuation">]</span> <span class="token punctuation">}</span>
+</code></pre></div><p>为了解决编辑器对 jest 断言方法的类型报错，如 test、expect 的报错，你还需要安装</p> <div class="language-js extra-class"><pre class="language-js"><code>npm install <span class="token operator">--</span>save<span class="token operator">-</span>dev @types<span class="token operator">/</span>jest
+</code></pre></div><p><code>./get.ts</code></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">/**
+ * 访问嵌套对象，避免代码中出现类似 user &amp;&amp; user.personalInfo ? user.personalInfo.name : null 的代码
+ */</span>
+<span class="token keyword">export</span> <span class="token keyword">function</span> get<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span><span class="token punctuation">(</span>object<span class="token operator">:</span> any<span class="token punctuation">,</span> <span class="token literal-property property">path</span><span class="token operator">:</span> Array<span class="token operator">&lt;</span>number <span class="token operator">|</span> string<span class="token operator">&gt;</span><span class="token punctuation">,</span> defaultValue<span class="token operator">?</span><span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token constant">T</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> result <span class="token operator">=</span> path<span class="token punctuation">.</span><span class="token function">reduce</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">obj<span class="token punctuation">,</span> key</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> obj <span class="token operator">!==</span> <span class="token keyword">undefined</span> <span class="token operator">?</span> obj<span class="token punctuation">[</span>key<span class="token punctuation">]</span> <span class="token operator">:</span> <span class="token keyword">undefined</span><span class="token punctuation">,</span> object<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">return</span> result <span class="token operator">!==</span> <span class="token keyword">undefined</span> <span class="token operator">?</span> result <span class="token operator">:</span> defaultValue<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><code>./test/get.test.ts</code></p> <div class="language-JS extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> get <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./get'</span><span class="token punctuation">;</span>
+
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'测试嵌套对象存在的可枚举属性 line1'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token function">expect</span><span class="token punctuation">(</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token literal-property property">id</span><span class="token operator">:</span> <span class="token number">101</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">email</span><span class="token operator">:</span> <span class="token string">'jack@dev.com'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">personalInfo</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'Jack'</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">address</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">line1</span><span class="token operator">:</span> <span class="token string">'westwish st'</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">line2</span><span class="token operator">:</span> <span class="token string">'washmasher'</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">city</span><span class="token operator">:</span> <span class="token string">'wallas'</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">state</span><span class="token operator">:</span> <span class="token string">'WX'</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'personalInfo'</span><span class="token punctuation">,</span> <span class="token string">'address'</span><span class="token punctuation">,</span> <span class="token string">'line1'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token string">'westwish st'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h5 id="_5-持续监听"><a href="#_5-持续监听" class="header-anchor">#</a> 5.持续监听</h5> <p>为了提高效率，可以通过加启动参数的方式让 jest 持续监听文件的修改，而不需要每次修改完再重新执行测试用例</p> <p><strong>改写 package.json</strong></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token string-property property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>     <span class="token string-property property">&quot;test&quot;</span><span class="token operator">:</span> <span class="token string">&quot;jest --watchAll&quot;</span>   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre></div><h4 id="测试覆盖率报告"><a href="#测试覆盖率报告" class="header-anchor">#</a> 测试覆盖率报告</h4> <h5 id="什么是单元测试覆盖率"><a href="#什么是单元测试覆盖率" class="header-anchor">#</a> 什么是单元测试覆盖率？</h5> <p>单元测试覆盖率是一种软件测试的度量指标，指在所有功能代码中，完成了单元测试的代码所占的比例。有很多自动化测试框架工具可以提供这一统计数据，其中最基础的计算方式为：</p> <div class="language-js extra-class"><pre class="language-js"><code>单元测试覆盖率 <span class="token operator">=</span> 被测代码行数 <span class="token operator">/</span> 参测代码总行数 <span class="token operator">*</span> <span class="token number">100</span><span class="token operator">%</span>
+</code></pre></div><h5 id="如何生成"><a href="#如何生成" class="header-anchor">#</a> 如何生成？</h5> <p>加入<code>jest.config.js</code> 文件</p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 是否显示覆盖率报告</span>
+  <span class="token literal-property property">collectCoverage</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token comment">// 告诉 jest 哪些文件需要经过单元测试测试</span>
+  <span class="token literal-property property">collectCoverageFrom</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'get.ts'</span><span class="token punctuation">,</span> <span class="token string">'sum.ts'</span><span class="token punctuation">,</span> <span class="token string">'src/utils/**/*'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>再次运行效果</strong></p> <p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/87c77b541e88407ab0e83604604ade54~tplv-k3u1fbpfcp-watermark.awebp" alt="img"></p> <p><strong>参数解读</strong></p> <table><thead><tr><th>参数名</th> <th>含义</th> <th>说明</th></tr></thead> <tbody><tr><td>% stmts</td> <td>语句覆盖率</td> <td>是不是每个语句都执行了？</td></tr> <tr><td>% Branch</td> <td>分支覆盖率</td> <td>是不是每个 if 代码块都执行了？</td></tr> <tr><td>% Funcs</td> <td>函数覆盖率</td> <td>是不是每个函数都调用了？</td></tr> <tr><td>% Lines</td> <td>行覆盖率</td> <td>是不是每一行都执行了？</td></tr></tbody></table> <p><strong>设置单元测试覆盖率阀值</strong></p> <p>人认为既然在项目中集成了单元测试，那么非常有必要关注单元测试的质量，而覆盖率则一定程度上客观的反映了单测的质量，同时我们还可以通过设置单元测试阀值的方式提示用户是否达到了预期质量。</p> <p><code>jest.config.js</code> 文件</p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">collectCoverage</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">// 是否显示覆盖率报告</span>
+  <span class="token literal-property property">collectCoverageFrom</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'get.ts'</span><span class="token punctuation">,</span> <span class="token string">'sum.ts'</span><span class="token punctuation">,</span> <span class="token string">'src/utils/**/*'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token comment">// 告诉 jest 哪些文件需要经过单元测试测试</span>
+  <span class="token literal-property property">coverageThreshold</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">global</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">statements</span><span class="token operator">:</span> <span class="token number">90</span><span class="token punctuation">,</span> <span class="token comment">// 保证每个语句都执行了</span>
+      <span class="token literal-property property">functions</span><span class="token operator">:</span> <span class="token number">90</span><span class="token punctuation">,</span> <span class="token comment">// 保证每个函数都调用了</span>
+      <span class="token literal-property property">branches</span><span class="token operator">:</span> <span class="token number">90</span><span class="token punctuation">,</span> <span class="token comment">// 保证每个 if 等分支代码都执行了</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre></div><p>上述阀值要求我们的测试用例足够充分，如果我们的用例没有足够充分，则下面的报错将会帮助你去完善</p> <p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9e84a847c0f84068989c930eafd7bfe0~tplv-k3u1fbpfcp-watermark.awebp" alt="img"></p> <h4 id="常用断言方法"><a href="#常用断言方法" class="header-anchor">#</a> 常用断言方法</h4> <p>关于断言方法有很多，这里仅摘出常用方法，如果你想了解更多，你可以去 <a href="https://link.juejin.cn/?target=https%3A%2F%2Fwww.jestjs.cn%2Fdocs%2Fexpect" target="_blank" rel="noopener noreferrer">Jest 官网 API<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>部分查看</p> <p><strong>.not 修饰符允许你测试结果不等于某个值的情况</strong></p> <div class="language- extra-class"><pre class="language-text"><code>./test/sum.test.js
+import { sum } from './sum';
+
+test('sum(2, 4) 不等于 5', () =&gt; {
+  expect(sum(2, 4)).not.toBe(5);
+})
+复制代码
+</code></pre></div><p><strong>.toEqual 匹配器会递归的检查对象所有属性和属性值是否相等，常用来检测引用类型</strong></p> <div class="language- extra-class"><pre class="language-text"><code>./src/utils/userInfo.js
+export const getUserInfo = () =&gt; {
+  return {
+    name: 'moji',
+    age: 24,
+  }
+}
+复制代码
+./test/userInfo.test.js
+import { getUserInfo }  from '../src/userInfo.js';
+
+test('getUserInfo()返回的对象深度相等', () =&gt; {
+  expect(getUserInfo()).toEqual(getUserInfo());
+})
+
+test('getUserInfo()返回的对象内存地址不同', () =&gt; {
+  expect(getUserInfo()).not.toBe(getUserInfo());
+})
+复制代码
+</code></pre></div><p><strong>.toHaveLength 可以很方便的用来测试字符串和数组类型的长度是否满足预期</strong></p> <div class="language- extra-class"><pre class="language-text"><code>./src/utils/getIntArray.js
+export const getIntArray = (num) =&gt; {
+  if (!Number.isInteger(num)) {
+    throw Error('&quot;getIntArray&quot;只接受整数类型的参数');
+  }
+  
+  return [...new Array(num).keys()];
+};
+
+复制代码
+./test/getIntArray.test.js
+./test/getIntArray.test.js
+import { getIntArray }  from '../src/utils/getIntArray';
+
+test('getIntArray(3)返回的数组长度应该为3', () =&gt; {
+  expect(getIntArray(3)).toHaveLength(3);
+})
+复制代码
+</code></pre></div><p><strong>.toThorw 能够让我们测试被测试方法是否按照预期抛出异常</strong></p> <p>但是需要注意的是：我们必须使用一个函数将被测试的函数做一个包装，正如下面 getIntArrayWrapFn 所做的那样，否则会因为函数抛出错误导致该断言失败。</p> <div class="language- extra-class"><pre class="language-text"><code>./test/getIntArray.test.js
+import { getIntArray }  from '../src/utils/getIntArray';
+
+test('getIntArray(3.3)应该抛出错误', () =&gt; {
+  function getIntArrayWrapFn() {
+    getIntArray(3.3);
+  }
+  
+  expect(getIntArrayWrapFn).toThrow('&quot;getIntArray&quot;只接受整数类型的参数');
+})
+
+复制代码
+</code></pre></div><p><strong>.toMatch 传入一个正则表达式，它允许我们来进行字符串类型的正则匹配</strong></p> <div class="language- extra-class"><pre class="language-text"><code>./test/userInfo.test.js
+import { getUserInfo }  from '../src/utils/userInfo.js';
+
+test(&quot;getUserInfo().name 应该包含'mo'&quot;, () =&gt; {
+  expect(getUserInfo().name).toMatch(/mo/i);
+})
+复制代码
+</code></pre></div><p><strong>测试异步函数</strong></p> <div class="language- extra-class"><pre class="language-text"><code>./servers/fetchUser.js
+/** 
+ * 获取用户信息
+*/
+export const fetchUser = () =&gt; {
+  return new Promise((resole) =&gt; {
+    setTimeout(() =&gt; {
+      resole({
+        name: 'moji',
+        age: 24,
+      })
+    }, 2000)
+  })
+}
+复制代码
+./test/fetchUser.test.js
+import { fetchUser } from '../src/fetchUser';
+
+test('fetchUser() 可以请求到一个用户名字为 moji', async () =&gt; {
+  const data =  await fetchUser();
+
+  expect(data.name).toBe('moji')
+})
+复制代码
+</code></pre></div><p>这里你可能看到这样一条报错</p> <p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/db2f1cf16fe845e0b80021f12ba66fb1~tplv-k3u1fbpfcp-watermark.awebp" alt="img"></p> <p>这是因为<code>@babel/preset-env</code>不支持 async await 导致的，这时候就需要对 babel 配置进行增强，可以安装 <code>@babel/plugin-transform-runtime</code> 这个插件解决</p> <div class="language-jsx extra-class"><pre class="language-jsx"><code>npm install <span class="token operator">--</span>save<span class="token operator">-</span>dev @babel<span class="token operator">/</span>plugin<span class="token operator">-</span>transform<span class="token operator">-</span>runtime
+复制代码
+</code></pre></div><p>同时改写 .babelrc</p> <div class="language-jsx extra-class"><pre class="language-jsx"><code><span class="token punctuation">{</span>
+  <span class="token string-property property">&quot;presets&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;@babel/preset-env&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;@babel/preset-typescript&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token string-property property">&quot;plugins&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;@babel/plugin-transform-runtime&quot;</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+
+复制代码
+</code></pre></div><p>再次运行就不会出现报错了</p> <p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9b5ddd1a51bd40c0b10dc99bc33eb382~tplv-k3u1fbpfcp-watermark.awebp" alt="img"></p> <p><strong>.toContain 匹配对象中是否包含</strong></p> <div class="language- extra-class"><pre class="language-text"><code>./test/toContain.test.js
+const names = ['liam', 'jim', 'bart'];
+
+test('匹配对象是否包含', () =&gt; {
+  expect(names).toContain('jim');
+})
+复制代码
+</code></pre></div><p>检查一些特殊的值（null，undefined 和 boolean）</p> <div class="language-jsx extra-class"><pre class="language-jsx"><code>toBeNull 仅匹配 <span class="token keyword">null</span>
+toBeUndefined 仅匹配 <span class="token keyword">undefined</span>
+toBeDefined 与…相反 toBeUndefined
+toBeTruthy 匹配 <span class="token keyword">if</span> 语句视为 <span class="token boolean">true</span> 的任何内容
+toBeFalsy 匹配 <span class="token keyword">if</span> 语句视为 <span class="token boolean">false</span> 的任何内容
+
+检查数字类型（number）
+toBeGreaterThan 大于
+toBeGreaterThanOrEqual 至少（大于等于）
+toBeLessThan 小于
+toBeLessThanOrEqual 最多（小于等于）
+toBeCloseTo 用来匹配浮点数（带小数点的相等）
+</code></pre></div><h4 id="测试框架"><a href="#测试框架" class="header-anchor">#</a> 测试框架</h4> <h5 id="karma-自动化测试框架"><a href="#karma-自动化测试框架" class="header-anchor">#</a> Karma 自动化测试框架</h5> <ol><li>node.js (node 引擎)</li> <li>npm (node 包管理器)</li> <li>cnpm(可选) (淘宝镜像)</li> <li>karma (提供 web 服务和浏览器适配)</li> <li>mocha   (单元测试框架)</li> <li>chai    (断言库)</li> <li>requirejs    (提供非commonjs规范的模块加载)</li> <li>karma-mocha karma-chai   karma-requirejs  (karma 中对应的包)</li> <li>karma-chrome-launcher  karma-ie-launcher  (karma 中的浏览器适配包)</li> <li>karma-mocha-reporter (karma 中的 mocha 终端测试报告)</li> <li>karma-htmlfile-reporter (karam 生成 html 格式的测试报告文件)</li></ol></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/vue-press-md/面试问题/1_面试问题.html" class="prev">
+        面试问题汇总
+      </a></span> <span class="next"><a href="/vue-press-md/力扣算法/1_力扣算法.html">
+        力扣算法
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/vue-press-md/assets/js/app.b27cc345.js" defer></script><script src="/vue-press-md/assets/js/2.ab91b6d3.js" defer></script><script src="/vue-press-md/assets/js/23.607464eb.js" defer></script>
+  </body>
+</html>
